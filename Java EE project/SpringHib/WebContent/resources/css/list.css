@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+body{
+	background: rgba(255,255,255,0.5);
+}
+#main{
+	width: 800px;
+	margin: 0 auto;
+}
+#left{
+	background:#ddd;
+	width: 500px;
+	height: 700px;
+	float:left;
+}
+
+.userinfo{
+	margin: 20px;
+}
+
+#right{
+	background:#eee;
+	width: 300px;
+	height: auto;
+	float:right;
+}
+
+.array{
+	margin: 20px;
+}

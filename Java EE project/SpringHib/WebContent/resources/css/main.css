@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,900italic,700italic,700&subset=latin,cyrillic);
+ 
+
+body{
+    
+    background-repeat: repeat-y;
+    background-image: linear-gradient(90deg, #FF512F 10%, #00BFFF 90%);
+    /*
+    	 background: url("${pageContext.request.contextPath}/resources/img/jeime.jpg");
+    */
+}
+
+#page{
+    
+    width: 1170px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+#slider{
+    
+    position: relative;
+    height: 420px;
+    
+}
+
+#main{
+
+    height: auto;
+    
+
+}
+
+
+#main #column{
+	
+    float: left;
+    width: 240px;
+    
+   
+}
+
+#main #center{
+    margin: 1px;
+    float: right;
+    width: 930px;
+    
+    
+}
+
+#main #center p{
+
+    margin: 10px;
+}
+font{    
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading{
+    height: 60px;
+    width: 1170px;
+    display: inline-block;
+    
+}
+#currentuser{
+	position:relative;
+
+	float: right;
+	
+}
+#logo{
+    margin-top: 10px;
+    float: left;
+}
+
+#title{
+	 position:relative;
+     margin-left: 15px;
+     bottom: 5px;
+     float: left;
+}
+
+#content{
+	position:relative;
+	left: 150px;
+	
+}
+
+
+

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+#scrollup {
+position: fixed; /* фиксированная позиция */
+
+padding: 15px 10px 10px; /* отступы */
+
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+}
