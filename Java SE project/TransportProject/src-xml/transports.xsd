@@ -1,0 +1,53 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="transports" type="transportsType"/>
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element type="xs:double" name="speed"/>
+      <xs:element type="xs:int" name="passengerCapacity"/>
+      <xs:element type="xs:double" name="cargoCapacity"/>
+      <xs:element type="xs:double" name="priceperkm"/>
+      <xs:element type="xs:double" name="priceperkg"/>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="busType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="carType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="helicopterType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="planeType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="shipType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="boatType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transportsType">
+    <xs:sequence>
+      <xs:element type="busType" name="bus"/>
+      <xs:element type="carType" name="car"/>
+      <xs:element type="helicopterType" name="helicopter"/>
+      <xs:element type="planeType" name="plane"/>
+      <xs:element type="shipType" name="ship"/>
+      <xs:element type="boatType" name="boat"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

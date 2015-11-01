@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="city" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:double" name="width"/>
+              <xs:element type="xs:double" name="length"/>
+              <xs:element type="xs:string" name="hasAirport"/>
+              <xs:element type="xs:string" name="hasPort"/>
+              <xs:element type="xs:string" name="hasStation"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transports>
+    <bus>
+        <item>
+            <speed>70.0</speed>
+            <passengerCapacity>50</passengerCapacity>
+            <cargoCapacity>50</cargoCapacity>
+            <priceperkm>0.03</priceperkm>
+            <priceperkg>0.001</priceperkg>
+            <name>Автобус №1</name>
+        </item>
+        <item>
+            <speed>60.0</speed>
+            <passengerCapacity>60</passengerCapacity>
+            <cargoCapacity>60</cargoCapacity>
+            <priceperkm>0.02</priceperkm>
+            <priceperkg>0.001</priceperkg>
+            <name>Автобус №2</name>
+        </item>
+    </bus>
+    <car>
+        <item>
+            <speed>100.0</speed>
+            <passengerCapacity>4</passengerCapacity>
+            <cargoCapacity>20</cargoCapacity>
+            <priceperkm>0.006</priceperkm>
+            <priceperkg>0.0001</priceperkg>
+            <name>Автомобиль №1</name>
+        </item>
+        <item>
+            <speed>90.0</speed>
+            <passengerCapacity>4</passengerCapacity>
+            <cargoCapacity>30</cargoCapacity>
+            <priceperkm>0.008</priceperkm>
+            <priceperkg>0.0001</priceperkg>
+            <name>Автомобиль №2</name>
+        </item>
+    </car>
+    <helicopter>
+		<item>
+			<speed>160.0</speed>
+			<passengerCapacity>10</passengerCapacity>
+			<cargoCapacity>300</cargoCapacity>
+			<priceperkm>0.1</priceperkm>
+			<priceperkg>0.001</priceperkg>
+			<name>Ветролет</name>
+		</item>
+    </helicopter>
+    <plane>
+		<item>
+			<speed>500.0</speed>
+			<passengerCapacity>150</passengerCapacity>
+			<cargoCapacity>500</cargoCapacity>
+			<priceperkm>0.2</priceperkm>
+			<priceperkg>0.001</priceperkg>
+			<name>Самолет</name>
+		</item>
+    </plane>
+    <ship>
+		<item>
+			<speed>60.0</speed>
+			<passengerCapacity>2000</passengerCapacity>
+			<cargoCapacity>10000</cargoCapacity>
+			<priceperkm>0.001</priceperkm>
+			<priceperkg>0.1</priceperkg>
+			<name>Теплоход</name>
+		</item>
+    </ship>
+    <boat>
+		<item>
+			<speed>80.0</speed>
+			<passengerCapacity>5</passengerCapacity>
+			<cargoCapacity>10</cargoCapacity>
+			<priceperkm>0.001</priceperkm>
+			<priceperkg>0.0</priceperkg>
+			<name>Моторная лодка</name>
+		</item>
+    </boat>
+</transports>

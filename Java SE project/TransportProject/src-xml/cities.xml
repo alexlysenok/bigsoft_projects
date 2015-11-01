@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cities>
+	<city>
+		<name>Paris</name>
+		<width>48.8534100</width>
+		<length>2.3488000</length>
+		<hasAirport>true</hasAirport>
+		<hasPort>false</hasPort>
+		<hasStation>true</hasStation>
+	</city>
+	<city>
+		<name>Amsterdam</name>
+		<width>52.3740300</width>
+		<length>4.8896900</length>
+		<hasAirport>true</hasAirport>
+		<hasPort>true</hasPort>
+		<hasStation>true</hasStation>
+	</city>
+	<city>
+		<name>Venezia</name>
+		<width>45.4371300</width>
+		<length>12.3326500</length>
+		<hasAirport>false</hasAirport>
+		<hasPort>true</hasPort>
+		<hasStation>true</hasStation>
+	</city>
+	<city>
+		<name>Berlin</name>
+		<width>52.5243700</width>
+		<length>13.4105300</length>
+		<hasAirport>true</hasAirport>
+		<hasPort>false</hasPort>
+		<hasStation>true</hasStation>
+	</city>
+	<city>
+		<name>Oslo</name>
+		<width>59.9127300</width>
+		<length>10.7460900</length>
+		<hasAirport>true</hasAirport>
+		<hasPort>true</hasPort>
+		<hasStation>true</hasStation>
+	</city>
+</cities>
